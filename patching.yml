@@ -1,9 +1,9 @@
 ---
- - name:Playbook to Patch Linux Server  
+ - name: Playbook to Patch Linux Server
    hosts: 192.168.10.10,192.168.10.11,192.168.10.12
    gather_facts: no
    tasks:
      - name: Upgrade all packages
-       yum: 
+       yum:
          name: '*'
          state: latest
