@@ -1,6 +1,6 @@
 ---
  - name: Playbook to Patch Linux Server
-   hosts: 192.168.10.10,192.168.10.11,192.168.10.12
+   hosts: 192.168.33.10,192.168.78.155
    gather_facts: no
    tasks:
      - name: Upgrade all packages
